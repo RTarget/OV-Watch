@@ -4,3 +4,9 @@
 # 忽略所有位置的 .vscode 目录
 **/.vscode/
 
+# Keil本地界面文件
+*.uvguix.*
+
+# Keil编译输出目录
+Software/OV_Watch/MDK-ARM/output/
+Software/IAP_F411/MDK-ARM/IAP_F411/
