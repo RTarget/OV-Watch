@@ -10,3 +10,6 @@
 # Keil编译输出目录
 Software/OV_Watch/MDK-ARM/output/
 Software/IAP_F411/MDK-ARM/IAP_F411/
+
+# 忽略 Bootloader 编译产生的汇编列表
+Software/IAP_F411/MDK-ARM/*.lst
