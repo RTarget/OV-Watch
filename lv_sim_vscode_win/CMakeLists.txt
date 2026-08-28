@@ -20,5 +20,5 @@ add_executable(main main.c mouse_cursor_icon.c ${SOURCES} ${INCLUDES})
 file(COPY SDL2.dll DESTINATION ../bin)
 
 add_compile_definitions(LV_CONF_INCLUDE_SIMPLE)
-target_link_libraries(main PRIVATE SDL2 )
+target_link_libraries(main PRIVATE SDL2::SDL2)
 add_custom_target (run COMMAND ${EXECUTABLE_OUTPUT_PATH}/main)
